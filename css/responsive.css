@@ -1,0 +1,274 @@
+@-webkit-viewport { width: device-width; user-zoom:fixed; }
+@-moz-viewport { width: device-width; user-zoom:fixed; }
+@-ms-viewport { width: device-width; user-zoom:fixed; }
+@-o-viewport { width: device-width; user-zoom:fixed; }
+@viewport { width: device-width; user-zoom:fixed; }
+
+/* ------------------------------------------------------------------------ */
+/* Mobile Landscape Size to Tablet Portrait                                 */
+/* ------------------------------------------------------------------------ */
+@media only screen and (min-width: 30em) and (max-width: 47.9375em) {
+    body {
+    }
+}
+
+/* ------------------------------------------------------------------------ */
+/* Tablet Portrait size to standard 960 (devices and browsers)              */
+/* ------------------------------------------------------------------------ */
+@media only screen and (min-width: 48em) and (max-width: 59.9375em) {
+    body {
+    }
+}
+
+/* ------------------------------------------------------------------------ */
+/* Standard 960 to Big Monitor Sizes (devices and browsers)                 */
+/* ------------------------------------------------------------------------ */
+@media only screen and (min-width: 60em) {
+
+	body,
+	a.button,
+	input[type="submit"],
+	input[type="button"],
+	input[type="reset"] {
+		font-size: 1.75rem;
+    }
+
+	input[type="text"],
+	input[type="email"],
+	input[type="search"],
+	input[type="password"],
+	input[type="file"],
+	select,
+	textarea,
+	.custom table.simus_tabangaben .col1 span,
+	.custom .shop .content-column.full_width.content-2columns .content-column.two_third form.wpsg_productform .wpsg_produkt_wrapper .wpsg_mod_productindex_content table.cart td.col1 .wpsg_produkt_add_basket_wrapper label {
+		font-size: 1.6rem;
+    }
+}
+
+/* ------------------------------------------------------------------------ */
+/* Monitor sizes from 1280 to 1600 (devices and browsers)					*/
+/* ------------------------------------------------------------------------ */
+@media only screen and (min-width: 80em) and (max-width: 99.9375em) {
+    body {
+    }
+
+}
+
+/* ------------------------------------------------------------------------ */
+/* Monitor sizes from 1280 (devices and browsers)							*/
+/* ------------------------------------------------------------------------ */
+@media only screen and (min-width: 80em) {
+    body {
+    }
+
+	.container {
+		max-width: 1000px;
+	}
+}
+
+/* ------------------------------------------------------------------------ */
+/* Monitor sizes from 1600 (devices and browsers)							*/
+/* ------------------------------------------------------------------------ */
+@media only screen and (min-width: 100em) {
+    body {
+    }
+
+	.custom .archive .archive-helper > article {
+		height: 260px !important;
+	}
+}
+
+/* ------------------------------------------------------------------------ */
+/* Monitor sizes to 1280 (devices and browsers)								*/
+/* ------------------------------------------------------------------------ */
+@media only screen and (max-width: 79.9375em) {
+    body {
+    }
+
+	.custom .full_width,
+	.custom .one_half,
+	.custom .one_third,
+	.custom .two_third,
+	.custom .one_fourth,
+	.custom .three_fourth,
+	.custom .one_fifth,
+	.custom .two_fifth,
+	.custom .three_fifth,
+	.custom .four_fifth,
+	.custom .one_sixth,
+	.custom .five_sixth {
+		float: none;
+		clear: both;
+		width: auto;
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 0;
+	}
+
+	.custom .content-column.full_width .one_half {
+		padding: 0;
+	}
+
+	.custom .content-column.full_width .one_half.last_column {
+		padding: 0;
+	}
+
+	.custom .content-column.full_width .one_third {
+		padding: 0;
+	}
+
+	.custom .content-column.full_width .one_third.last_column {
+		padding: 0;
+	}
+
+	.custom .content-column.full_width .two_third {
+		padding: 0;
+	}
+
+	.custom .content-column.full_width.two_third_links .two_third {
+		padding: 0;
+	}
+
+	.custom .content-column.full_width.two_third_rechts .two_third {
+		padding: 0;
+	}
+	
+	.custom .content-column.full_width.simus_drei_bereiche,
+	.custom .content-column.full_width.simus_leistungen,
+	.custom .content-column.full_width.kontakt {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	.half-left,
+	.half-right,
+	.wpcf7 .submit-button {
+		width: auto;
+		float: none;
+	}
+
+}
+
+/* ------------------------------------------------------------------------ */
+/* Monitor sizes from 960 to 1280 (devices and browsers)						*/
+/* ------------------------------------------------------------------------ */
+@media only screen and (min-width: 60em) and (max-width: 79.9375em) {
+    body {
+    }
+
+}
+
+/* ------------------------------------------------------------------------ */
+/* Monitor sizes from 960 to 1280 (devices and browsers)						*/
+/* ------------------------------------------------------------------------ */
+@media only screen and (min-width: 60em) and (max-width: 79.9375em) and (orientation: portrait) {
+	body {
+    }
+
+}
+
+/* ------------------------------------------------------------------------ */
+/* Monitor sizes from 960 to 1280 (devices and browsers)						*/
+/* ------------------------------------------------------------------------ */
+@media only screen and (min-width: 60em) and (max-width: 79.9375em) and (orientation: landscape) {
+	body {
+    }
+	
+}
+
+/* ------------------------------------------------------------------------ */
+/* Smaller than standard 960 (devices and browsers)                         */
+/* ------------------------------------------------------------------------ */
+@media only screen and (max-width: 59.9375em) {
+	body,
+	a.button,
+	input[type="submit"],
+	input[type="button"],
+	input[type="reset"] {
+		font-size: 1.95rem;
+    }
+
+	input[type="text"],
+	input[type="email"],
+	input[type="search"],
+	input[type="password"],
+	input[type="file"],
+	select,
+	textarea,
+	.custom table.simus_tabangaben .col1 span,
+	.custom .shop .content-column.full_width.content-2columns .content-column.two_third form.wpsg_productform .wpsg_produkt_wrapper .wpsg_mod_productindex_content table.cart td.col1 .wpsg_produkt_add_basket_wrapper label {
+		font-size: 1.6rem;
+    }
+
+	*,
+	*::before,
+	*::after {
+		color: #000000;
+	}
+
+	
+}
+
+/* ------------------------------------------------------------------------ */
+/* Smaller than standard 960 (devices and browsers)                         */
+/* ------------------------------------------------------------------------ */
+@media only screen and (max-width: 59.9375em) and (orientation: portrait) {
+	body {
+    }
+	
+}
+
+/* ------------------------------------------------------------------------ */
+/* Smaller than standard 960 (devices and browsers)                         */
+/* ------------------------------------------------------------------------ */
+@media only screen and (max-width: 59.9375em) and (orientation: landscape) {
+	body {
+    }
+}
+
+/* ------------------------------------------------------------------------ */
+/* All Mobile Sizes (devices and browser) / all under Tablet                */
+/* ------------------------------------------------------------------------ */
+@media only screen and (max-width: 47.9375em) {
+    body {
+    }
+
+}
+
+/* ------------------------------------------------------------------------ */
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)     */
+/* ------------------------------------------------------------------------ */
+@media only screen and (max-width: 29.9375em) {
+    body {
+    }
+}
+
+/* ------------------------------------------------------------------------ */
+/* Monitor sizes to 1280 (devices and browsers)								*/
+/* ------------------------------------------------------------------------ */
+@media only screen and (min-width: 60em) and (max-width: 79.9375em) {
+    body {
+    }
+
+}
+	
+/* ------------------------------------------------------------------------ */
+/* Monitor sizes from 1600 to 1920 (devices and browsers)					*/
+/* ------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 80em) and (max-width: 119.9375em) {
+    body {
+    }
+
+}
+
+/* ------------------------------------------------------------------------ */
+/* Monitor sizes from 1920 (devices and browsers)							*/
+/* ------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 120em) {
+    body {
+    }
+
+}

@@ -1,0 +1,73 @@
+html.noie56789,
+html.noie56789 body {
+	width: 100%;
+	height: 100%;
+	font-size: 100%;
+    font-style: inherit;
+	overflow: hidden;
+}
+
+html.noie56789 {
+	font-size: 62.5%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;;
+}
+
+html.noie56789 body {
+	font-family: 'Merriweather',serif;
+	font-style: normal;
+	position: absolute;
+	z-index: -1;
+}
+
+html.noie56789 * {    
+    outline: none!important;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 300;
+    color: #111111;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-hyphens: auto;
+    -moz-hyphens:    auto;
+    -ms-hyphens:     auto;
+    hyphens:         auto;
+    word-wrap: break-word;
+    letter-spacing: 0.01em;
+    background: none;
+}
+
+html.noie56789 body .site-header,
+html.noie56789 body .site-content,
+html.noie56789 body .site-footer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	height: 0 !important;
+	display: none;
+	overflow: hidden;
+}
+div.noie56789 {
+	position: absolute;
+	z-index: 1000;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #2672ec;
+	background-image: url('../images/noie56789.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 16px;
+}
